@@ -14,7 +14,7 @@ btn-primary shadow-sm" data-toggle="modal" data-target="#exampleModalScrollable"
 <br>
 <div class="row justify-content-end">
         <div class="col-md-3">
-          <form action='/supplier' method="GET">
+          <form action='/user' method="GET">
                 <div class="input-group mb-2">
                     <input type="text" class="form-control" placeholder="Search.." name="search" value="{{Request::get('search')}}">
                       <button class="btn btn-primary" type="submit">Cari</button>
